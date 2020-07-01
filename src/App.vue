@@ -1,6 +1,8 @@
 <template>
-  <div class=''>
-    我是大主件
+  <div class="App">
+    <head-foot>
+      <router-view></router-view>
+    </head-foot>
   </div>
 </template>
 
@@ -17,4 +19,5 @@ export default {
 }
 </script>
 
-<style scoped lang='less'></style>
+<style scoped lang='less'>
+</style>
