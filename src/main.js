@@ -8,12 +8,13 @@ import login from './views/login.vue'
 
 import home from './views/home.vue'
 // 引入vant插件
-import { Button, Field, Icon, Search } from 'vant'
+import { Button, Field, Icon, Search, Style } from 'vant'
 import 'amfe-flexible'
 Vue.use(Button)
 Vue.use(Field)
 Vue.use(Icon)
 Vue.use(Search)
+Vue.use(Style)
 Vue.use(VueRouter)
 Vue.component('head-foot', headFoot)// 注册成全局的head-foot组件
 const router = new VueRouter({ // 配置路由
